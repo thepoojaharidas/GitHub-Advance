@@ -48,6 +48,7 @@ Where to get your repository-url (**Do this in your own fork**):
 Then,
 
 <img width="414" height="387" alt="image" src="https://github.com/user-attachments/assets/e5d7b38e-a2ce-4e6a-b0ae-830d3cdb3d98" />
+
 Once you're on your Desktop, clone your forked repository:
 ```bash
 git clone <your-forked-repository-url>
@@ -75,7 +76,7 @@ bash populate_repo_squash.sh
 
 **For Windows (PowerShell):**
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass 
+Set-ExecutionPolicy Bypass -Scope Process 
 .\populate_repo_squash.ps1
 ```
 
